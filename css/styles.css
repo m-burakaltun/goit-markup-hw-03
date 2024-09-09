@@ -54,6 +54,7 @@
   width: 261px;
   height: 24px;
   margin-top: 10px;
+  margin-left: 76px;
 }
 
 .nav-bar-list{
@@ -90,6 +91,22 @@
   text-decoration: underline;
 }
 
+.contact{
+  display: flex;
+  margin-top: 24px;
+  margin-left: 150px;
+}
+
+.contact-mail{
+  width: 153px;
+  height: 24px;
+}
+
+.contact-tel{
+  width: 151px;
+  height: 24px;
+  
+}
 .contact > a {
   text-decoration: none;
   font-weight: 400;
@@ -107,17 +124,19 @@
 
 .hero-image {
   background-color: #2e2f42;
-  width: 496;
-  height: 120;
+  height: 600px;
 }
 
 .hero-image-h1 {
+  width: 496px;
   font-size: 56px;
   font-weight: 700;
   line-height: 3.75em;
   color: #ffffff;
   letter-spacing: 2%;
   text-align: center;
+
+
 }
 
 .order-button {
@@ -129,6 +148,9 @@
   line-height: 1.5em;
   letter-spacing: 2%;
   cursor: pointer;
+  border-radius: 4px;
+  
+
 }
 .order-button:hover,
 .order-button:focus {
