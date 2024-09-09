@@ -1,0 +1,176 @@
+
+.main-body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-weight: 700;
+  font-weight: 500;
+  font-style: normal;
+  background-color: #ffffff;
+}
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.3125em;
+  letter-spacing: 3%;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.span-logo-web {
+  color: #4d5ae5;
+}
+
+.span-logo-studio {
+  color: #2e2f42;
+}
+
+.span-logo-studio:hover,
+.span-logo-studio:focus {
+  color: #404bbf;
+}
+
+.nav-bar {
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 2%;
+  color: #2e2f42;
+}
+
+.nav-bar li:hover {
+  color: #404bbf;
+}
+
+.nav-studio:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
+
+.contact {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 2%;
+  color: #434455;
+}
+.contact:hover,
+.contact:focus {
+  color: #404bbf;
+}
+
+.hero-image {
+  background-color: #2e2f42;
+}
+
+.hero-image h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 3.75em;
+  letter-spacing: 2%;
+  color: #ffffff;
+}
+
+.order-button {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 4%;
+  cursor: pointer;
+}
+.order-button:hover,
+.order-button:focus {
+  background-color: #404bbf;
+}
+
+.h2-title{
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 2.5em;
+  letter-spacing: 2%;
+  color: #2e2f42;
+}
+
+.section-1 h3 {
+  font-size: 20px;
+  line-height: 1.5em;
+  letter-spacing: 2%;
+  color: #2e2f42;
+}
+
+.section-1 p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+  letter-spacing: 2%;
+  color: #434455;
+}
+
+.section-2 {
+  background-color: #f4f4fd;
+}
+
+.section-2 h3 {
+  font-size: 20px;
+  line-height: 1.5em;
+  letter-spacing: 2%;
+  color: #2e2f42;
+}
+.section-2 p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+  letter-spacing: 2%;
+  color: #434455;
+}
+
+.section-3 h3 {
+  font-size: 20px;
+  line-height: 1.5em;
+  letter-spacing: 2%;
+  color: #2e2f42;
+}
+
+.section-3 p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+  letter-spacing: 2%;
+  color: #434455;
+}
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.3125em;
+  letter-spacing: 3%;
+  text-decoration: none;
+  color: #4d5ae5;
+}
+
+.footer-logo-web {
+  color: #4d5ae5;
+}
+
+.footer-logo-studio {
+  color: #f4f4fd;
+}
+
+.footer-logo-studio:hover{
+  color: #4d5ae5;
+}
+
+.footer p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+  letter-spacing: 2%;
+  color: #f4f4fd;
+}
