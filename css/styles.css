@@ -6,6 +6,7 @@
   font-weight: 500;
   font-style: normal;
   background-color: #ffffff;
+  padding: 141px;
 }
 
 .container{
@@ -17,6 +18,14 @@
   display: flex;
   margin-top: 24px;
   
+}
+.h1,h2,h3,h4,h5,h6,p,ol,ul,li{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -124,7 +133,8 @@
 
 .hero-image {
   background-color: #2e2f42;
-  height: 600px;
+  padding-left: 156px;
+  
 }
 
 .hero-image-h1 {
@@ -134,7 +144,8 @@
   line-height: 3.75em;
   color: #ffffff;
   letter-spacing: 2%;
-  text-align: center;
+  align-content: center;
+  
 
 
 }
@@ -149,6 +160,10 @@
   letter-spacing: 2%;
   cursor: pointer;
   border-radius: 4px;
+  padding: 16px, 32px, 16px, 32px;
+  align-content: center;
+
+  
   
 
 }
@@ -165,37 +180,214 @@
   color: #2e2f42;
 }
 
-.section-1 h3 {
+.section-1{
+  padding-top: 120px;
+}
+
+.section-1-list{
+  list-style-type: none;
+  display: flex;
+  padding-left: 156px;
+}
+
+.section-1-strategy-title {
+  width: 264px;
   font-size: 20px;
   line-height: 1.5em;
   letter-spacing: 2%;
   color: #2e2f42;
 }
 
-.section-1 p {
+.strategy-title-p {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5em;
   letter-spacing: 2%;
   color: #434455;
+  width: 264px;
+
 }
+
+.section-1-punctuality-title{
+  width: 264px;
+    font-size: 20px;
+    line-height: 1.5em;
+    letter-spacing: 2%;
+    color: #2e2f42;
+    padding-left: 22px;
+    
+    
+}
+
+.punctuality-title-p{
+  font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+    letter-spacing: 2%;
+    color: #434455;
+    width: 264px;
+    padding-left: 22px;
+}
+
+.section-1-diligence-title{
+  width: 264px;
+    font-size: 20px;
+    line-height: 1.5em;
+    letter-spacing: 2%;
+    color: #2e2f42;
+    padding-left: 22px;
+    
+}
+
+.diligence-title-p{
+  font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+    letter-spacing: 2%;
+    color: #434455;
+    width: 264px;
+    padding-left: 22px;
+}
+
+.section-1-technologies-title{
+  width: 264px;
+    font-size: 20px;
+    line-height: 1.5em;
+    letter-spacing: 2%;
+    color: #2e2f42;
+    padding-left: 22px;
+}
+
+.technologies-title-p{
+  font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+    letter-spacing: 2%;
+    color: #434455;
+    width: 264px;
+    padding-left: 22px;
+}
+
+
+.section{
+  padding-top: 120px;
+}
+
 
 .section-2 {
   background-color: #f4f4fd;
+  height: 732px;
+  align-content: center;
 }
 
-.section-2 h3 {
+.seciton-2-h2-title{
+  font-size: 36px;
+    font-weight: 700;
+    line-height: 2.5em;
+    letter-spacing: 2%;
+    color: #2e2f42;
+    text-align: center;
+}
+.section-2-list{
+  list-style-type: none;
+    padding-left: 156px;
+    display: flex;
+    
+}
+
+.section-2-mark{
+  width: 264px;
+  border-radius: 0px, 0px, 4px, 4px;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 0px, 0px, 32px, 0px;
+  
+
+}
+
+.section-2-tom{
+  width: 264px;
+    border-radius: 0px, 0px, 4px, 4px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.section-2-camila{
+  width: 264px;
+    border-radius: 0px, 0px, 4px, 4px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.seciton-2-daniel{
+  width: 264px;
+    border-radius: 0px, 0px, 4px, 4px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.section-2-h3 {
   font-size: 20px;
   line-height: 1.5em;
   letter-spacing: 2%;
   color: #2e2f42;
 }
+
+
 .section-2 p {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5em;
   letter-spacing: 2%;
   color: #434455;
+}
+
+
+.section-3-h2-title{
+  font-size: 36px;
+    font-weight: 700;
+    line-height: 2.5em;
+    letter-spacing: 2%;
+    color: #2e2f42;
+    text-align: center;
+}
+
+
+.section-3-list{
+  list-style-type: none;
+    padding-left: 156px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.section-3-banking-app{
+  width: 300px;
+  text-align: center;
+}
+
+.section-3-payment{
+  width: 300px;
+  text-align: center;
+}
+
+.section-3-meditation{
+  width: 300px;
+    text-align: center;
+}
+
+.section-3-taxi{
+  width: 300px;
+    text-align: center;
+}
+
+.section-3-screen-illustrations{
+  width: 300px;
+    text-align: center;
+}
+
+.section-3-online-courses{
+  width: 300px;
+    text-align: center;
 }
 
 .section-3 h3 {
@@ -215,6 +407,12 @@
 
 .footer {
   background-color: #2e2f42;
+  height: 312px;
+  margin-top: 120px;
+}
+
+.footer-panel{
+  width: 264px;
 }
 
 .footer-logo {
@@ -225,6 +423,8 @@
   letter-spacing: 3%;
   text-decoration: none;
   color: #4d5ae5;
+  padding-top: 120px;
+  padding-left: 120px;
 }
 
 .footer-logo-web {
@@ -239,7 +439,8 @@
   color: #4d5ae5;
 }
 
-.footer p {
+.footer-p{
+  padding-left: 120px;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5em;
