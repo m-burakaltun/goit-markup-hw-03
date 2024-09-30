@@ -147,26 +147,21 @@ span.logo-stud {
   gap: 40px;
 }
 
-
-.menu-element{
+.menu-element {
   padding: 24px 0;
 }
 
-
-
-.menu-element :hover  {
+.menu-element :hover {
   color: #404bbf;
 }
-
-
 
 .link-studio {
   text-decoration: none;
   color: #2e2f42;
 }
 
-.link-studio :active{
-  color: #404BBF;
+.link-studio :active {
+  color: #404bbf;
 }
 
 .link-portfolio {
@@ -184,10 +179,9 @@ span.logo-stud {
   gap: 40px;
 }
 
-.address-list  :hover a{
-  color:#404BBF;
+.address-list :hover a {
+  color: #404bbf;
 }
-
 
 .hero-img-section {
   height: 600px;
@@ -368,7 +362,6 @@ span.logo-stud {
 }
 
 .project-card .image-portfolio {
-
   display: block;
   width: 100%;
   height: 360px;
@@ -396,33 +389,27 @@ span.logo-stud {
   opacity: 1;
 }
 
-
-
 .footer {
- 
- padding: 100px 0;
+  padding: 100px 0;
   background: #2e2f42;
 }
 
-.footer-logo{
-
+.footer-logo {
   display: inline-block;
   margin-bottom: 16px;
 }
 
-
-.logo-web{
-  color: #4D5AE5;
+.logo-web {
+  color: #4d5ae5;
 }
 
-.logo-studio{
-  color: #F4F4FD;
+.logo-studio {
+  color: #f4f4fd;
 }
 
-.logo-studio :hover{
-  color:#4D5AE5 ;
+.logo-studio :hover {
+  color: #4d5ae5;
 }
-
 
 .footer-text {
   max-width: 264px;
@@ -430,5 +417,3 @@ span.logo-stud {
 
   color: #f4f4fd;
 }
-
-
