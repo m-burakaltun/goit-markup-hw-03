@@ -72,77 +72,42 @@ a {
   text-decoration: none;
 }
 
-header {
-  height: 72px;
+.head-er {
   border-bottom: 1px solid#e7e9fc;
   background-color: #ffffff;
 }
 
 .div-header {
   display: flex;
-  flex-direction: row;
-  padding-top: 24px;
-  justify-content: space-between;
 }
 
-.menu-logo {
-  display: inline;
-  flex-direction: row;
-
-  padding: 0;
-
-  flex-grow: 1;
+.header-logo {
+  margin-right: 76px;
 }
 
-.a-logo {
-  text-decoration: none;
-  float: inline-start;
-  width: 270px;
-  height: 21px;
-  padding-left: 141px;
+.span-logo-web {
+  color: #4d5ae5;
 }
 
-span.logo-web {
-  height: 21px;
-
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
-  /* identical to box height, or 117% */
-  display: inline-block;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-span.logo-stud {
-  width: 71px;
-  height: 21px;
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
-
-  display: inline-block;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-
+.span-logo-studio {
   color: #2e2f42;
 }
 
-.menu-nav {
+.span-logo-studio:hover,
+.span-logo-studio:focus {
+  color: #404bbf;
+}
+
+.header-logo-studio :hover span {
+  color: #404bbf;
+}
+
+.nav-menu {
   display: flex;
   align-items: center;
 }
 
-.menu-nav-list {
+.nav-menu-list {
   display: flex;
   gap: 40px;
 }
@@ -181,6 +146,10 @@ span.logo-stud {
 
 .address-list :hover a {
   color: #404bbf;
+}
+
+.visually-hidden {
+  visibility: hidden;
 }
 
 .hero-img-section {
@@ -236,20 +205,9 @@ span.logo-stud {
   gap: 24px;
 }
 
-.sec1-col {
+.our-team-list-product {
   width: calc((100% - 72px) / 4);
-}
-
-.sec1-title {
-  color: #2e2f42;
-  margin-bottom: 8px;
-}
-
-.sec1-text {
-  color: #2e2f42;
-  width: 264px;
-  margin-top: 8px;
-  font-weight: 400;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .section-our-team {
@@ -273,16 +231,10 @@ span.logo-stud {
   gap: 24px;
 }
 
-.our-team-list-product {
-  width: calc((100% - 72px) / 4);
-  border-radius: 0px, 0px, 4px, 4px;
-}
-
 .div-team-card {
   padding: 32px 0;
   display: block;
   justify-content: center;
-  flex-wrap: nowrap;
 
   background-color: #ffffff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),

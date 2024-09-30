@@ -5,6 +5,17 @@
     <title>WebStudio</title>
     <link
       rel="stylesheet"
+      href="https://cdnjs.com/libraries/modern-normalize"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.0/modern-normalize.min.css"
       integrity="sha512-3axTZ/bKFZH5/qLFTl4U+mDbBDFW+5QO5L7D1HnOhlhJbcNDIVJxoNm6It77g0eUdzfKZlHirayqRC2qJaAOJw=="
       crossorigin="anonymous"
@@ -19,17 +30,15 @@
   </head>
 
   <body>
-    <header>
+    <header class="head-er">
       <div class="container">
         <div class="div-header">
-          <p class="menu-logo">
-            <a href="#" class="a-logo"
-              ><span class="logo-web">WEB</span
-              ><span class="logo-stud">STUDIO</span></a
+          <nav class="nav-menu">
+            <a href="#" class="header-logo"
+              ><span class="span-logo-web">WEB</span
+              ><span class="span-logo-studio">STUDIO</span></a
             >
-          </p>
-          <nav class="menu-nav">
-            <ul class="menu-nav-list">
+            <ul class="nav-menu-list">
               <li class="menu-element">
                 <a href="#" class="link-studio">Studio</a>
               </li>
@@ -67,6 +76,7 @@
       </section>
       <section class="section-1">
         <div class="container">
+          <h2 class="visually-hidden"></h2>
           <ul class="section-1-list">
             <li class="sec1-col">
               <h3 class="sec1-title">Strategy</h3>
@@ -107,32 +117,34 @@
               <div class="div-team-card">
                 <img src="images/imgcard1.jpg" width="264px" alt="Mark" />
 
-                <h3 class="name">Mark Guerrero</h3>
-                <p class="job">Product Designer</p>
+                <div class="div-card">
+                  <h3 class="name">Mark Guerrero</h3>
+                  <p class="job">Product Designer</p>
+                </div>
               </div>
             </li>
             <li class="our-team-list-developer">
+              <img src="images/imgcard2.jpg" width="264px" alt="Tom" />
               <div class="div-team-card">
-                <img src="images/imgcard2.jpg" width="264px" alt="Tom" />
                 <h3 class="name">Tom Ford</h3>
                 <p class="job">Frontend Developer</p>
               </div>
             </li>
             <li class="our-team-list-marketing">
+              <img src="images/imgcard3.jpg" width="264px" alt="Camila" />
               <div class="div-team-card">
-                <img src="images/imgcard3.jpg" width="264px" alt="Camila" />
                 <h3 class="name">Camila Garcia</h3>
                 <p class="job">Marketing</p>
               </div>
             </li>
             <li class="our-team-list-designer">
+              <img
+                src="images/imgcard4.jpg"
+                width="264px"
+                alt="Daniel"
+                id="imgDaniel"
+              />
               <div class="div-team-card">
-                <img
-                  src="images/imgcard4.jpg"
-                  width="264px"
-                  alt="Daniel"
-                  id="imgDaniel"
-                />
                 <h3 class="name">Daniel Wilson</h3>
                 <p class="job">UI Designer</p>
               </div>
@@ -140,7 +152,7 @@
           </ul>
         </div>
       </section>
-      <section class="section our-portfolio">
+      <section class="section-our-portfolio">
         <div class="container">
           <h2 class="our-portfolio-title">Our Portfolio</h2>
 
