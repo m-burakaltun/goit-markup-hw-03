@@ -212,6 +212,7 @@ a {
 
 .section-our-team {
   padding: 120px 0;
+  background-color: #f4f4fd;
 }
 
 .our-team-title {
@@ -297,7 +298,7 @@ a {
 
 .our-portfolio-list-section {
   width: calc((100% - 72px) / 4);
-  max-width: 100%;
+  
 }
 
 .port-card-content {
@@ -366,6 +367,5 @@ a {
 .footer-text {
   max-width: 264px;
   letter-spacing: 0.02em;
-
   color: #f4f4fd;
 }
