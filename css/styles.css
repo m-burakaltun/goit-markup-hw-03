@@ -75,12 +75,13 @@ a {
   border-bottom: 1px solid#e7e9fc;
   background-color: #ffffff;
   display: flex;
+  height: 72px;
 }
 
 .div-header {
   display: flex;
   justify-content: space-between;
-  height: 72px;
+  
 }
 
 .header-logo {
@@ -145,21 +146,19 @@ a {
 
 .addres{
   display: flex;
-  flex-grow: 1;
-  flex-direction: row;
   
 }
 
- .address-list{
+.address-list{
+  padding: 24px;
   display: flex;
   gap: 40px;
   justify-content: space-between;
   text-align: center;
-  flex-direction: row;
-
+  
 }
 
-.address> a:hover,
+.address-list > a:hover,
 :focus  {
   color: #404bbf;
 }
@@ -347,12 +346,13 @@ a {
 .footer {
   padding: 100px 0;
   background: #2e2f42;
+  flex-direction: column;
 }
 
 .footer-logo {
-  display: inline-block;
+  display: block;
   margin-bottom: 16px;
-  text-align: center;
+  
 }
 
 .logo-web {
@@ -372,5 +372,7 @@ a {
   font-weight: 400;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
+  display: inline-block;
 
 }
