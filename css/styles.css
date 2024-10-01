@@ -37,7 +37,6 @@ body {
   size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
-  width: 1440px;
 }
 
 .container {
@@ -75,14 +74,23 @@ a {
 .head-er {
   border-bottom: 1px solid#e7e9fc;
   background-color: #ffffff;
+  display: flex;
 }
 
 .div-header {
   display: flex;
+  justify-content: space-between;
 }
 
 .header-logo {
   margin-right: 76px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.3125em;
+  letter-spacing: 3%;
+  text-decoration: none;
+  padding: 24px 0;
+  display: inline-block;
 }
 
 .span-logo-web {
@@ -110,38 +118,57 @@ a {
 .nav-menu-list {
   display: flex;
   gap: 40px;
+  list-style-type: none;
 }
 
 .menu-element {
   padding: 24px 0;
+  font-weight: 500;
 }
 
-.menu-element :hover {
+.menu-element :hover,
+:focus {
   color: #404bbf;
 }
 
-.link-studio {
-  text-decoration: none;
-  color: #2e2f42;
-}
-
-.link-studio :active {
-  color: #404bbf;
-}
-
-.link-portfolio {
-  text-decoration: none;
-  color: #2e2f42;
-}
-
+.link-studio, 
+.link-portfolio, 
 .link-contacts {
   text-decoration: none;
   color: #2e2f42;
 }
 
+.link-studio :active
+ {
+  color: #404bbf;
+}
+
+.address {
+  display: flex; /* Flex ile esnek düzen */
+  margin-top: 20px; /* Üstten biraz boşluk bırak */
+}
+
 .address-list {
+  display: flex; /* Liste elemanlarını yan yana diz */
+  padding: 0; /* İç boşluğu sıfırla */
+  margin: 0; /* Dış boşluğu sıfırla */
+  list-style-type: none; /* Madde işaretlerini kaldır */
+  gap: 40px; /* Elemanlar arasındaki boşluk */
+}
+
+.address-list li {
+  margin: 0; /* Liste elemanlarının dış boşluğunu sıfırla */
+}
+.email{
   display: flex;
-  gap: 40px;
+  flex-grow: 1;
+  font-weight: 400;
+}
+
+.tel{
+  display: flex;
+  flex-grow: 1;
+  font-weight: 400;
 }
 
 .address-list :hover a {
@@ -194,6 +221,14 @@ a {
 
 .section-1 {
   padding: 120px 0;
+}
+
+.sec1-title{
+  font-weight: 500;
+}
+
+.sec1-text{
+  font-weight: 400;
 }
 
 .our-team {
@@ -274,9 +309,7 @@ a {
 
 .our-portfolio {
   border-width: 0 0 1px 0;
-
   border-style: solid;
-
   border-color: #e7e9fc;
 }
 
@@ -291,14 +324,14 @@ a {
 
 .our-portfolio-list {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Kartların alt satıra geçmesini sağlar */
   column-gap: 24px;
   row-gap: 48px;
 }
 
 .our-portfolio-list-section {
-  width: calc((100% - 72px) / 4);
-  
+  width: calc((100% - 48px) / 3); /* Üç sütun için genişlik ayarı */
 }
 
 .port-card-content {
@@ -312,18 +345,15 @@ a {
   width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .project-card .image-portfolio {
   display: block;
   width: 100%;
   height: 360px;
-
-  /* WHITE
-  
-  Header background, team card background
-  */
 }
+
 
 .overlay {
   position: absolute;
