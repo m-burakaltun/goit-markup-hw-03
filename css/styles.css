@@ -80,6 +80,7 @@ a {
 .div-header {
   display: flex;
   justify-content: space-between;
+  height: 72px;
 }
 
 .header-logo {
@@ -106,13 +107,12 @@ a {
   color: #404bbf;
 }
 
-.header-logo-studio :hover span {
-  color: #404bbf;
-}
+
 
 .nav-menu {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .nav-menu-list {
@@ -138,40 +138,29 @@ a {
   color: #2e2f42;
 }
 
-.link-studio :active
+.link-studio a:active
  {
   color: #404bbf;
 }
 
-.address {
-  display: flex; /* Flex ile esnek düzen */
-  margin-top: 20px; /* Üstten biraz boşluk bırak */
-}
-
-.address-list {
-  display: flex; /* Liste elemanlarını yan yana diz */
-  padding: 0; /* İç boşluğu sıfırla */
-  margin: 0; /* Dış boşluğu sıfırla */
-  list-style-type: none; /* Madde işaretlerini kaldır */
-  gap: 40px; /* Elemanlar arasındaki boşluk */
-}
-
-.address-list li {
-  margin: 0; /* Liste elemanlarının dış boşluğunu sıfırla */
-}
-.email{
+.addres{
   display: flex;
   flex-grow: 1;
-  font-weight: 400;
+  flex-direction: row;
+  
 }
 
-.tel{
+ .address-list{
   display: flex;
-  flex-grow: 1;
-  font-weight: 400;
+  gap: 40px;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: row;
+
 }
 
-.address-list :hover a {
+.address> a:hover,
+:focus  {
   color: #404bbf;
 }
 
@@ -355,23 +344,6 @@ a {
 }
 
 
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-}
-
-.project-card:hover .overlay {
-  /* hover project card */
-
-  opacity: 1;
-}
-
 .footer {
   padding: 100px 0;
   background: #2e2f42;
@@ -380,6 +352,7 @@ a {
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .logo-web {
@@ -390,12 +363,14 @@ a {
   color: #f4f4fd;
 }
 
-.logo-studio :hover {
+.logo-studio a:hover {
   color: #4d5ae5;
 }
 
 .footer-text {
-  max-width: 264px;
+  font-style: normal;
+  font-weight: 400;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+
 }
