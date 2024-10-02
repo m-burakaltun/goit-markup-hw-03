@@ -60,6 +60,10 @@ p {
   margin: 0 auto;
 }
 
+h3{
+  font-weight: 500;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -75,7 +79,7 @@ a {
   border-bottom: 1px solid#e7e9fc;
   background-color: #ffffff;
   display: flex;
-  height: 72px;
+  
 }
 
 .div-header {
@@ -91,7 +95,7 @@ a {
   line-height: 1.3125em;
   letter-spacing: 3%;
   text-decoration: none;
-  padding: 24px 0;
+  padding: 24px ;
   display: inline-block;
 }
 
@@ -123,7 +127,6 @@ a {
 }
 
 .menu-element {
-  padding: 24px 0;
   font-weight: 500;
 }
 
@@ -144,7 +147,7 @@ a {
   color: #404bbf;
 }
 
-.addres{
+.address{
   display: flex;
   
 }
@@ -155,10 +158,11 @@ a {
   gap: 40px;
   justify-content: space-between;
   text-align: center;
+  font-weight: 400;
   
 }
 
-.address-list > a:hover,
+.address .mail :hover,
 :focus  {
   color: #404bbf;
 }
@@ -213,10 +217,13 @@ a {
 
 .sec1-title{
   font-weight: 500;
+  font-size: 20px;
 }
 
 .sec1-text{
   font-weight: 400;
+  font-size: 16px;
+
 }
 
 .our-team {
@@ -327,6 +334,14 @@ a {
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.our-portfolio-text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
 }
 
 .project-card {
