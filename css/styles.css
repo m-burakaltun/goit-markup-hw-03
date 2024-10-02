@@ -1,3 +1,10 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 .roboto-thin {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
@@ -79,13 +86,13 @@ a {
   border-bottom: 1px solid#e7e9fc;
   background-color: #ffffff;
   display: flex;
+  max-height: 72px;
   
 }
 
 .div-header {
   display: flex;
-  justify-content: space-between;
-  
+  justify-content: space-between;  
 }
 
 .header-logo {
@@ -95,8 +102,9 @@ a {
   line-height: 1.3125em;
   letter-spacing: 3%;
   text-decoration: none;
-  padding: 24px ;
+  padding: 24px 0;
   display: inline-block;
+  margin-bottom: auto;
 }
 
 .span-logo-web {
@@ -118,12 +126,14 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  
 }
 
 .nav-menu-list {
   display: flex;
   gap: 40px;
   list-style-type: none;
+  
 }
 
 .menu-element {
@@ -149,6 +159,9 @@ a {
 
 .address{
   display: flex;
+  font-style: normal;
+  margin-left: auto;
+  
   
 }
 
@@ -174,7 +187,6 @@ a {
 .hero-img-section {
   height: 600px;
   background-color: #2e2f42;
-
   padding: 188px 0;
   box-shadow: 0px 4px 4px 0px #00000026;
   display: flex;
